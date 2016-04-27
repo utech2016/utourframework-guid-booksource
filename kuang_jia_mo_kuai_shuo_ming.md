@@ -18,3 +18,10 @@
 * **Utour.Framework.Log**
   >基于log4net扩展实现的框架的自定义类型日志，提供了CommonLogger,WebLogger,ServiceLogger三种不同场景下(站点项目,WCF服务项目,其他类型项目)的Logger日志记录类
 
+
+
+
+
+
+
+[0]:http://www.baidu.com/
