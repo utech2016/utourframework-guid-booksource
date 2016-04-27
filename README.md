@@ -1,6 +1,8 @@
-# My Awesome Book
+# UtourFramework框架开发指南
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+   Utour Framework是一个基于.net 4.0的互联网应用程序开发框架, 同时对一系列代码规范进行约定, 从而使开发人员在进行高效开发的同时, 做到代码易管理易维护易分析易审核, 并确保互联网应用程序的底层实现安全稳定的运行
+  
+
 
 
 
