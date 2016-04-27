@@ -5,4 +5,5 @@
    * [框架模块说明](introduce/kuang_jia_mo_kuai_shuo_ming.md)
    * [框架特点](introduce/kuang_jia_te_dian.md)
 * [约定](devrule/yue_ding.md)
+   * 实体类约定
 
