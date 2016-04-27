@@ -17,7 +17,10 @@
   >框架封装的各种工具类,如JSON格式化，序列化，加密等
 * **Utour.Framework.Log**
   >基于log4net扩展实现的框架的自定义类型日志，提供了CommonLogger,WebLogger,ServiceLogger三种不同场景下(站点项目,WCF服务项目,其他类型项目)的Logger日志记录类
-
+* **Utour.Framework.CAInterface**
+  >提供基本缓存操作接口层，如提供通用缓存接口操作等
+* **Utour.Framework.CacheAccess**
+  >对Utour.Framework.CAInterface接口层缓存实现
 
 
 
