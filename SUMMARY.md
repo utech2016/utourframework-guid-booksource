@@ -9,5 +9,5 @@
    * [服务接口约定](devrule/fu_wu_jie_kou_yue_ding.md)
    * [服务实现类约定](devrule/fu_wu_shi_xian_lei_yue_ding.md)
    * [数据库数据访问接口约定](devrule/shu_ju_ku_shu_ju_fang_wen_jie_kou_yue_ding.md)
-   * 数据库数据适配器类约定
+   * [数据库数据适配器类约定](devrule/shu_ju_ku_shu_ju_shi_pei_qi_lei_yue_ding.md)
 
