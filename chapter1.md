@@ -1,6 +1,6 @@
 # 1.框架概括
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+框架整体包含9个项目，即9个dll，如图所示：
 ## 1.1
 
 
