@@ -20,7 +20,7 @@
 * **Utour.Framework.CAInterface**
   >提供基本缓存操作接口层，如提供通用缓存接口操作等
 * **Utour.Framework.CacheAccess**
-  >对Utour.Framework.CAInterface接口层缓存实现
+  >对Utour.Framework.CAInterface接口层的缓存实现
 
 
 
