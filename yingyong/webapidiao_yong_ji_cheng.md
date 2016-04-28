@@ -1,9 +1,9 @@
 # 3.8 WebAPI调用集成
 对WebApi调用和格式在框架中进行了统一封装，并提供了api接口数据缓存功能，具体使用请按照如下方式：
 1. 直接依赖dll引入
- Utour.Framework.Web.dll
- Utour.Framework.CacheAccess.dll
- Utour.Framework.CAInterface.dll
+ - Utour.Framework.Web.dll
+ - Utour.Framework.CacheAccess.dll
+ - Utour.Framework.CAInterface.dll
 2. 加入两项配置文件
    WebApiAuth.config--api如有授权验证，则在调用方需加入此配置
    WebApiCache.config--在api服务层配置哪些接口需要进行结果缓存
