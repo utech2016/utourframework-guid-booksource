@@ -16,5 +16,5 @@
    * [Web开发约定](devrule/webkai_fa_yue_ding.md)
 * [应用方式](yingyong/ying_yong_fang_shi.md)
    * [DLL引用方式](yingyong/dllyin_yong_fang_shi.md)
-   * WCF服务引用方式
+   * [WCF服务引用方式](yingyong/wcffu_wu_yin_yong_fang_shi.md)
 
