@@ -61,3 +61,37 @@ APIDataResultl对象
         public string JsonResult { get; set; }
     }
  ```
+ API接口示例代码：
+ ```C#
+     public class UsersController : ApiController
+    {
+        // GET api/users
+
+        [HttpPost]
+        public APIDataResult GetUserList()
+        {
+            IUserManageService ums = ServiceFactory.GetInstance<IUserManageService>();
+            APIDataResult result = new APIDataResult();
+            try
+            {
+               List<User> list = ums.GetUserList();
+               result = new APIDataResult()
+               {
+                   ErrorCode = 200,
+                   ErrorMsg = "获取成功",
+                   JsonResult = JsonHelper.SerializeObject(list)
+               };
+            }
+            catch (Exception)
+            {
+                result = new APIDataResult()
+                {
+                    ErrorCode=-2,
+                    ErrorMsg = "接口错误",
+                    JsonResult = JsonHelper.SerializeObject("")
+                };
+            }
+            return result;
+        }
+    }
+ ```
