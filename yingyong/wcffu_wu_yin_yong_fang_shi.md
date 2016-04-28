@@ -3,11 +3,8 @@
 >1. 引用服务接口(ServiceInterface)和服务实体(Entity)的DLL.
 >2. 调用```tour.Framework.Service.ServiceFactory```类中```GetInstance<T>()```方法,例如：
 ```C#
- public User GetUser(int Id)
- {
-    IUserService userService=ServiceFactory.GetInstance<IUserService>();
-    User user= userService.LoadUser(Id);
-    return user;
- }
+  IUserService userService=ServiceFactory.GetInstance<IUserService>();
+  User user= userService.LoadUser(Id);
+  return user;
 ```
 >3. 在ServiceClient中配置服务地址和其他属性值
