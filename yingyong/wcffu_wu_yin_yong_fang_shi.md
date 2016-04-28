@@ -7,9 +7,3 @@
  User user= userService.LoadUser(Id);
 ```
 >3. 在ServiceClient中配置服务地址和其他属性值
-
-
-```csharp
- IUserService userService=ServiceFactory.GetInstance<IUserService>();
- User user= userService.LoadUser(Id);
-```
