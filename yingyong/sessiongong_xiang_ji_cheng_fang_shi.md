@@ -19,7 +19,7 @@ protected override void Application_Start()
     <SessionDomain>utour.com</SessionDomain>
 </SessionConfig>
 ```
-5.在CacheProvider.Config中配置Redis连接串
+5. 在CacheProvider.Config中配置Redis连接串
 ```xml
 <CacheProvider category="Redis">
       <CacheConnections>
@@ -27,7 +27,7 @@ protected override void Application_Start()
       </CacheConnections>
 </CacheProvider>
 ```
-6.在Web.config中配置节点
+6. 在Web.config中配置节点
 ```xml
 <system.web>
     <sessionState mode="Custom" customProvider="RedisSessionStateProvider">
