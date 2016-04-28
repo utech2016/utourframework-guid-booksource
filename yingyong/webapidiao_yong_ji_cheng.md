@@ -61,7 +61,7 @@ APIDataResultl对象
         public string JsonResult { get; set; }
     }
  ```
- API接口示例代码：
+ Web API接口示例代码：
  ```C#
      public class UsersController : ApiController
     {
