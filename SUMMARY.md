@@ -12,5 +12,5 @@
    * [数据库数据适配器类约定](devrule/shu_ju_ku_shu_ju_shi_pei_qi_lei_yue_ding.md)
    * [缓存数据访问接口约定](devrule/huan_cun_shu_ju_fang_wen_jie_kou_yue_ding.md)
    * [缓存数据适配器类约定](devrule/huan_cun_shu_ju_shi_pei_qi_lei_yue_ding.md)
-   * 配置文件和配置类约定
+   * [配置文件和配置类约定](devrule/pei_zhi_wen_jian_he_pei_zhi_lei_yue_ding.md)
 
