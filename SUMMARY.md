@@ -19,5 +19,5 @@
    * [WCF服务引用方式](yingyong/wcffu_wu_yin_yong_fang_shi.md)
    * [数据访问层调用方式](yingyong/shu_ju_fang_wen_ceng_diao_yong_fang_shi.md)
    * [缓存访问层调用方式](yingyong/huan_cun_fang_wen_ceng_diao_yong_fang_shi.md)
-   * Session共享集成方式
+   * [Session共享集成方式](yingyong/sessiongong_xiang_ji_cheng_fang_shi.md)
 
