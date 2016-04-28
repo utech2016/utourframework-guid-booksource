@@ -16,4 +16,48 @@
   //清除默认xml接口默认格式，启用Json格式
   config.Formatters.Remove(config.Formatters.XmlFormatter);
  ```
-4. 因框架已统一Json结果格式，编写每个web api 返回值只需要纯粹返回业务实数据对象即即可，无需再Json序列化结果，框架内部会自动序列化结果并根据配置写入缓存，如图
+4. 框架统一了每个API返回的Json格式，每个web api 返回值须是Utour.Framework.Web.DTO.APIDataResult类型对象，在返回时无需再Json序列化结果，框架内部会自动序列化并根据配置决定是否读取或写入缓存.
+
+APIDataResultl对象
+```C#
+     /// <summary>
+    /// Web Api 统一返回JSON格式实体
+    /// </summary>
+    public class APIDataResult
+    {
+        public APIDataResult()
+        { 
+        
+        }
+        /// <summary>
+        /// APIDataResult 构造函数初始化
+        /// </summary>
+        /// <param name="errorCode">操作代码</param>
+        /// <param name="errMsg">错误提示</param>
+        /// <param name="jsonResult">操作结果，JSON格式</param>
+        public APIDataResult(int errorCode,string errMsg,string jsonResult)
+        {
+            this.ErrorCode=errorCode;
+            this.ErrorMsg = errMsg;
+            this.JsonResult = jsonResult;
+        }
+
+        /// <summary>
+        /// ErrorCode
+        /// 200：成功
+        /// -1：系统错误信息
+        /// -2：自定义错误信息
+        /// </summary>
+        public int ErrorCode { get; set; }
+
+        /// <summary>
+        /// 错误信息
+        /// </summary>
+        public string ErrorMsg { get; set; }
+
+        /// <summary>
+        /// JSON数据结果
+        /// </summary>
+        public string JsonResult { get; set; }
+    }
+ ```
