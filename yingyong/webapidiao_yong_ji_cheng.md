@@ -108,6 +108,6 @@
     {"ErrorCode":200,"ErrorMsg":"","JsonResult":{}}
     ```
     结果字段说明:
-      ErrorCode:200-成功,-1：系统错误信息,2：自定义错误信息
-      ErrorMsg:错误提示消息
-      JsonResult：接口业务数据
+      * ErrorCode:200-成功,-1：系统错误信息,2：自定义错误信息
+      * ErrorMsg:错误提示消息
+      * JsonResult：接口业务数据
