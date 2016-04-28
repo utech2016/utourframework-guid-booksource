@@ -3,7 +3,7 @@
 >1. 引用数据访问接口DAInterface项目和业务实体(Entity)项目.
 >3. 在业务逻辑层使用```Utour.Framework.Database.DataAdapterFactory.GetDataAdapter<T>()```方法进行调用
 ```C#
-IUserDataAdapter userDA =                                                                           DataAdapterFactory.GetInstance().GetDataAdapter<IUserDataAdapter>();
+IUserDataAdapter userDA=DataAdapterFactory.GetInstance().GetDataAdapter<IUserDataAdapter>();
 User user = userDA.Load(Id);
  ```
 
