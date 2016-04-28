@@ -18,7 +18,7 @@
  ```
 4. 框架统一了每个API返回的Json格式，每个web api 返回值须是Utour.Framework.Web.DTO.APIDataResult类型对象，在返回时无需再Json序列化结果，框架内部会自动序列化并根据配置决定是否读取或写入缓存.
 
-  *APIDataResultl对象
+  APIDataResultl对象
 ```C#
      /// <summary>
     /// Web Api 统一返回JSON格式实体
