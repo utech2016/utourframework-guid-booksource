@@ -5,16 +5,6 @@
 
  
 >3. 在ServiceClient中配置服务地址和其他属性值
-
-```Python
-import os
-
-class Test(object):
-    def __init__(self):
-        pass
-    def test():
-        return None
-```
 ```csharp
 IUserService userService=ServiceFactory.GetInstance<IUserService>();
 Class user= userService.LoadUser(Id);
