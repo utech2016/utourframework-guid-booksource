@@ -49,6 +49,7 @@ protected override void Application_Start()
     </modules>
 </system.webServer>
 ```
+
 **注意: 由于Session的存储介质不再是内存, 请确保待存储的对象可序列化(Serializable).
 即要在实体类上面打上Serializable标记属性**
 
