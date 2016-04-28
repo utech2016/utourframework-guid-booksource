@@ -5,7 +5,7 @@
    ```
    IUserService userService=ServiceFactory.GetInstance<IUserService>();
    var user= userService.LoadUser(Id);
-   class user=new User();
+   Class user=new User();
    ```
  
 >3. 在ServiceClient中配置服务地址和其他属性值
