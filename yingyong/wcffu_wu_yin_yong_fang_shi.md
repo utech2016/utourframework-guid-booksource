@@ -5,9 +5,9 @@
 ```C#
  public User GetUser(int Id)
  {
-  IUserService userService=ServiceFactory.GetInstance<IUserService>();
-  User user= userService.LoadUser(Id);
-  return user;
+    IUserService userService=ServiceFactory.GetInstance<IUserService>();
+    User user= userService.LoadUser(Id);
+    return user;
  }
 ```
 >3. 在ServiceClient中配置服务地址和其他属性值
