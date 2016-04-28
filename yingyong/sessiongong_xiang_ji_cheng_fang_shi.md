@@ -13,8 +13,8 @@ protected override void Application_Start()
 		base.Application_Start();
 }
 ```
-4.在Session.Config中配置站点的Domain,如下
-5.
+4. 在Session.Config中配置站点的Domain,如下
+```XML
 <SessionConfig>
 <SessionDomain>utour.com</SessionDomain>
 </SessionConfig>
@@ -24,7 +24,9 @@ protected override void Application_Start()
        <CacheConnection name="SessionCache" readConnectionsString="127.0.0.1:6379"  writeConnectionsString="127.0.0.1:6379" maxWirtePoolSize="100" maxReadPoolSize="100" regionName="0"/>
       </CacheConnections>
 </CacheProvider>
+```
 6.在Web.config中配置节点
+```XML
 <system.web>
     <sessionState mode="Custom" customProvider="RedisSessionStateProvider">
       <providers>
@@ -35,15 +37,16 @@ protected override void Application_Start()
     </sessionState>
     <httpModules>
   <!--IIS经典模式下，在此配置Session跨域模块-->
-  <add   name="SessionCookieDomainHttpModule"  type="Utour.Framework.Web.SessionCookieDomainHttpModule,Utour.Framework.Web"/>
+  <add   name="SessionCookieDomainHttpModule" type="Utour.Framework.Web.SessionCookieDomainHttpModule,Utour.Framework.Web"/>
     </httpModules>
 </system.web>
 <system.webServer>
     <modules>
 <!--IIS集成模式下，在此配置Session跨域模块-->      
-<add name="SessionCookieDomainHttpModule"     type="Utour.Framework.Web.SessionCookieDomainHttpModule,Utour.Framework.Web"/>
+<add name="SessionCookieDomainHttpModule" type="Utour.Framework.Web.SessionCookieDomainHttpModule,Utour.Framework.Web"/>
     </modules>
 </system.webServer>
-7.注意: 由于Session的存储介质不再是内存, 请确保待存储的对象可序列化(Serializable).
-即要在实体类上面打上Serializable标记属性
+```
+7.**注意: 由于Session的存储介质不再是内存, 请确保待存储的对象可序列化(Serializable).
+即要在实体类上面打上Serializable标记属性**
 
