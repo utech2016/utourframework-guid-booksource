@@ -5,7 +5,7 @@
 
  
 >3. 在ServiceClient中配置服务地址和其他属性值
-```aspnet
+```C#
         [HttpPost]
         public APIDataResult GetUserList()
         {
