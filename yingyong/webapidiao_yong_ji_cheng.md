@@ -10,7 +10,7 @@
 3. 在api项目WebApiConfig类Register方法加入下面三行代码配置
 ```C#
   //注册全局接口缓存Filter，统一接口Json结果格式
-  config.Filters.Add(new WebApiDataCacheFilterAttribute("damoapi.utour.com"));
+  config.Filters.Add(new WebApiDataCacheFilterAttribute("输入项目唯一标识名称"));
   //注册全局接口异常Filter
   config.Filters.Add(new WebApiExceptionFilter());
   //清除默认xml接口默认格式，启用Json格式
