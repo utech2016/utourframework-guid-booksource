@@ -38,14 +38,14 @@ protected override void Application_Start()
       </providers>
     </sessionState>
     <httpModules>
-  <!--IIS经典模式下，在此配置Session跨域模块-->
-  <add   name="SessionCookieDomainHttpModule" type="Utour.Framework.Web.SessionCookieDomainHttpModule,Utour.Framework.Web"/>
+     <!--IIS经典模式下，在此配置Session跨域模块-->
+    <add   name="SessionCookieDomainHttpModule" type="Utour.Framework.Web.SessionCookieDomainHttpModule,Utour.Framework.Web"/>
     </httpModules>
 </system.web>
 <system.webServer>
     <modules>
-<!--IIS集成模式下，在此配置Session跨域模块-->      
-<add name="SessionCookieDomainHttpModule" type="Utour.Framework.Web.SessionCookieDomainHttpModule,Utour.Framework.Web"/>
+    <!--IIS集成模式下，在此配置Session跨域模块-->      
+    <add name="SessionCookieDomainHttpModule" type="Utour.Framework.Web.SessionCookieDomainHttpModule,Utour.Framework.Web"/>
     </modules>
 </system.webServer>
 ```
