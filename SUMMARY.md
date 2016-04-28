@@ -20,5 +20,5 @@
    * [数据访问层调用方式](yingyong/shu_ju_fang_wen_ceng_diao_yong_fang_shi.md)
    * [缓存访问层调用方式](yingyong/huan_cun_fang_wen_ceng_diao_yong_fang_shi.md)
    * [Session共享集成方式](yingyong/sessiongong_xiang_ji_cheng_fang_shi.md)
-   * AOP模块使用方式
+   * [AOP模块使用方式](yingyong/aopmo_kuai_shi_yong_fang_shi.md)
 
