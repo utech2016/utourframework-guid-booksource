@@ -16,7 +16,7 @@ protected override void Application_Start()
 4. 在Session.Config中配置站点的Domain,如下
 ```xml
 <SessionConfig>
-  <SessionDomain>uzai.com</SessionDomain>
+   <SessionDomain>utour.com</SessionDomain>
 </SessionConfig>
 ```
 5.在CacheProvider.Config中配置Redis连接串
