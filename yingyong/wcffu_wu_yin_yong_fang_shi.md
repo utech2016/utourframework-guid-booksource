@@ -5,7 +5,31 @@
 
  
 >3. 在ServiceClient中配置服务地址和其他属性值
-```csharp
-IUserService userService=ServiceFactory.GetInstance<IUserService>();
-Class user= userService.LoadUser(Id);
+```
+        [HttpPost]
+        public APIDataResult GetUserList()
+        {
+            IUserManageService ums = ServiceFactory.GetInstance<IUserManageService>();
+            APIDataResult result = new APIDataResult();
+            try
+            {
+               List<User> list = ums.GetUserList();
+               result = new APIDataResult()
+               {
+                   ErrorCode = 200,
+                   ErrorMsg = "获取成功",
+                   JsonResult = JsonHelper.SerializeObject(list)
+               };
+            }
+            catch (Exception)
+            {
+                result = new APIDataResult()
+                {
+                    ErrorCode=-2,
+                    ErrorMsg = "接口错误",
+                    JsonResult = JsonHelper.SerializeObject("")
+                };
+            }
+            return result;
+        }
 ```
