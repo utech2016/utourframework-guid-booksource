@@ -101,9 +101,9 @@
   ```C# 
    string api = "http://demoapi.utour.com";
    var jsonReq = "{\"Id\":" + 3 + "}";
-   string jsonResult1 = WebApiHepler.RequestWebAPI(api, "users", "GetUserById", jsonReq , true);
+   string jsonResult = WebApiHepler.RequestWebAPI(api, "users", "GetUserById", jsonReq , true);
    ```
-   返回JSON格式
+   返回jsonResult JSON格式如下：
     ```json
     {"ErrorCode":200,"ErrorMsg":"","JsonResult":{}}
     ```
