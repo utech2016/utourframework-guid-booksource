@@ -14,11 +14,13 @@ protected override void Application_Start()
 }
 ```
 4. 在Session.Config中配置站点的Domain,如下
-```XML
+```xml
 <SessionConfig>
-<SessionDomain>utour.com</SessionDomain>
+  <SessionDomain>utour.com</SessionDomain>
 </SessionConfig>
+```
 5.在CacheProvider.Config中配置Redis连接串
+```xml
 <CacheProvider category="Redis">
       <CacheConnections>
        <CacheConnection name="SessionCache" readConnectionsString="127.0.0.1:6379"  writeConnectionsString="127.0.0.1:6379" maxWirtePoolSize="100" maxReadPoolSize="100" regionName="0"/>
@@ -26,7 +28,7 @@ protected override void Application_Start()
 </CacheProvider>
 ```
 6.在Web.config中配置节点
-```XML
+```xml
 <system.web>
     <sessionState mode="Custom" customProvider="RedisSessionStateProvider">
       <providers>
