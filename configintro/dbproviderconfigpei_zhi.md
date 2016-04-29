@@ -1,5 +1,6 @@
 # 4.1 DBProviderConfig配置
 DBProviderConfig 数据库配置类，对应配置文件DBProvider.config,项目所需的所有数据库连接串在此配置文件中配置
+
 样例：
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
