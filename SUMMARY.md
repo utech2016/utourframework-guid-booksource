@@ -23,6 +23,6 @@
    * [AOP模块使用方式](yingyong/aopmo_kuai_shi_yong_fang_shi.md)
    * [日志模块使用方式](yingyong/ri_zhi_mo_kuai_shi_yong_fang_shi.md)
    * [WebAPI调用集成](yingyong/webapidiao_yong_ji_cheng.md)
-* [框架配置样例](configintro/kuangjia_pei_zhi_yang_li.md)
+* [框架配置样例](configintro/kuang_jia_pei_zhi_yang_li.md)
 * 附录
 
