@@ -1,3 +1,21 @@
 {
-  "plugins": ["prism", "-highlight"]
+  "plugins": ["prism", "-highlight","gitbook-ext"]
+  "variables": {
+        "title": "UtourFramework开发文档",
+        "theme": "theme-gray",
+        "copyright": "Copyright 2015 utech.com"
+    },
+    "collapsible_menu":true,
+    "level_number":false,
+    "links": {
+        "gitbook": false,
+        "sharing": {
+            "all":false,
+            "vk": false,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "weibo": true
+       }
+  }
 }
