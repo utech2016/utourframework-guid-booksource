@@ -6,7 +6,7 @@
 * 需要在每个启动项目的配置文件web.config或app.config中添加配置文件的监控目录
   ```xml
   <appSettings>
-    <!--配置监控目录，从项目根目录开始的相对地址-->
+    <!--配置监控目录，目录可自定义，但必须是从项目根目录开始的相对地址-->
     <add key="MonitorFilesPath" value="MonitorFiles" />
   </appSettings>
   ```
