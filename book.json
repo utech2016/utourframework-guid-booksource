@@ -2,7 +2,7 @@
   "plugins": ["prism", "-highlight","gitbook-ext"]
   "variables": {
         "title": "UtourFramework开发文档",
-        "theme": "theme-gray",
+        "theme": "theme-orange",
         "copyright": "Copyright 2015 utech.com"
     },
     "collapsible_menu":true,
