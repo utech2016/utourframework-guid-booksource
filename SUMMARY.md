@@ -24,4 +24,5 @@
    * [日志模块使用方式](yingyong/ri_zhi_mo_kuai_shi_yong_fang_shi.md)
    * [WebAPI调用集成](yingyong/webapidiao_yong_ji_cheng.md)
 * 附录
+* 框架配置样例说明
 
