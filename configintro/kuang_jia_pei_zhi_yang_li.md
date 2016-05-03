@@ -10,7 +10,7 @@
     <add key="MonitorFilesPath" value="MonitorFiles" />
   </appSettings>
   ```
-* 必须把配置文件要统一放到 “[监控目录]/Config”下，sqlmap配置放到“监控目录/SqlMap”下
+* 必须把配置文件要统一放到 “[监控目录]/Config”下，sqlmap配置放到“[监控目录]/SqlMap”下
 
 
 
