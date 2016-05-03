@@ -24,7 +24,7 @@
    * [日志模块使用方式](yingyong/ri_zhi_mo_kuai_shi_yong_fang_shi.md)
    * [WebAPI调用集成](yingyong/webapidiao_yong_ji_cheng.md)
 * [框架配置说明](configintro/kuang_jia_pei_zhi_yang_li.md)
-   * [DBProviderConfig配置](configintro/dbproviderconfigpei_zhi.md)
+   * [数据库提供者配置(DBProviderConfig)](configintro/dbproviderconfigpei_zhi.md)
    * [DBCategoryConfig配置](configintro/dbcategoryconfigpei_zhi.md)
    * [CacheProviderConfig](configintro/cacheproviderconfigpei_zhi.md)
    * [DBCategoryConfig](configintro/dbcategoryconfig.md)
