@@ -16,7 +16,9 @@ WebApi接口缓存配置,可配置对某一个Controller的某个方法的返回
       expireTime：接口数据缓存相对时间，单位:分钟
       isCache：缓存开关，是否进行缓存
     -->
-    <ApiCacheSetting apiName="getusers" controller="Users" action="GetUserList" expireTime="10"  isCache="true" />
+    <ApiCacheSetting apiName="getusers" controller="Users" 
+                      action="GetUserList" expireTime="10"  
+                      isCache="true" />
   </ApiCacheSettingList>
 </WebApiCacheConfig>
 ```
