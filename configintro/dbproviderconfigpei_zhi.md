@@ -11,7 +11,7 @@ DBProviderConfig 数据库配置类，对应配置文件DBProvider.config,项目
     <DBProvider category="SqlServer">
       <DBConnections>
         <!--name:数据库连接名称，connection:数据库连接串-->
-        <DBConnection name="" connection=""/>
+        <DBConnection name="DemoDB_Write" connection=""/>
       </DBConnections>
     </DBProvider>
   </DBProviders>
