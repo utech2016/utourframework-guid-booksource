@@ -6,8 +6,8 @@
   - Utour.Framework.CacheAccess.dll
   - Utour.Framework.CAInterface.dll
 2. 加入两项配置文件
-   WebApiAuth.config--api如有授权验证，则在调用方需加入此配置
-   WebApiCache.config--在api服务层配置哪些接口需要进行结果缓存
+   WebApiAuth.config--api如有授权验证，则在调用方需加入此配置([详细配置说明](../configintro/webapidiao_yong_mi_yao_pei_7f6e28_webapiauthconfig.md))
+   WebApiCache.config--在api服务层配置哪些接口需要进行结果缓存([详细配置说明](../configintro/webapijie_kou_huan_cun_pei_7f6e28_webapicacheconfi.md))
 3. 在api项目WebApiConfig类Register方法加入下面三行代码配置
 ```C#
   //注册全局接口缓存Filter，统一接口Json结果格式
@@ -17,7 +17,7 @@
   //清除默认xml接口默认格式，启用Json格式
   config.Formatters.Remove(config.Formatters.XmlFormatter);
  ```
-4. 框架统一了每个API返回的Json格式，每个web api 返回值须是Utour.Framework.Web.DTO.APIDataResult类型对象，在返回时无需再Json序列化结果，框架内部会自动序列化并根据配置决定是否读取或写入缓存.
+4. 框架统一了每个API返回的Json格式，每个web api 返回值须是```Utour.Framework.Web.DTO.APIDataResult```类型对象，在返回时无需再Json序列化结果，框架内部会自动序列化并根据配置决定是否读取或写入缓存.
 
   APIDataResultl对象
 ```C#
