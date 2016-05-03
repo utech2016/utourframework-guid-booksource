@@ -6,8 +6,10 @@
   - Utour.Framework.CacheAccess.dll
   - Utour.Framework.CAInterface.dll
 2. 加入两项配置文件
-   WebApiAuth.config--api如有授权验证，则在调用方需加入此配置([详细配置说明](../configintro/webapidiao_yong_mi_yao_pei_7f6e28_webapiauthconfig.md))
-   WebApiCache.config--在api服务层配置哪些接口需要进行结果缓存([详细配置说明](../configintro/webapijie_kou_huan_cun_pei_7f6e28_webapicacheconfi.md))
+   * WebApiAuth.config
+     >api如有授权验证，则在调用方需加入此配置([详细配置说明](../configintro/webapidiao_yong_mi_yao_pei_7f6e28_webapiauthconfig.md))
+   * WebApiCache.config
+     >在api服务层配置哪些接口需要进行结果缓存([详细配置说明](../configintro/webapijie_kou_huan_cun_pei_7f6e28_webapicacheconfi.md))
 3. 在api项目WebApiConfig类Register方法加入下面三行代码配置
 ```C#
   //注册全局接口缓存Filter，统一接口Json结果格式
