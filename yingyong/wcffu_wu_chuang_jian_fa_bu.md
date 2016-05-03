@@ -53,7 +53,7 @@
   </system.serviceModel>
     ```
   
-2. 在```ServiceHost.config```文件的WCFServiceHosts节点加入一个WCFServiceHost服务宿主配置（[详细配置说明](../configintro/fu_wu_su_zhu_pei_7f6e28_servicehostconfig.md)）
+2. 在```ServiceHost.config```文件的```WCFServiceHosts```节点加入一个```WCFServiceHost```服务宿主配置（[详细配置说明](../configintro/fu_wu_su_zhu_pei_7f6e28_servicehostconfig.md)）
 
    框架Demo中的示例
   ```xml
