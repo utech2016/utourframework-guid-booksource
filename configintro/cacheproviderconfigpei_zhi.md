@@ -1,6 +1,6 @@
 # 缓存提供者配置(CacheProviderConfig)
 
-CacheProviderConfig缓存提供者配置类，对应配置文件CacheProvider.config,项目所需的所有缓存连接串在此配置文件中配置.
+CacheProviderConfig缓存提供者配置类，对应配置文件```CacheProvider.config```,项目所需的所有缓存连接串在此配置文件中配置.
 
 ### 配置结构及样例
 ```xml
