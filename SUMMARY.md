@@ -14,7 +14,7 @@
    * [缓存数据适配器类约定](devrule/huan_cun_shu_ju_shi_pei_qi_lei_yue_ding.md)
    * [配置文件和配置类约定](devrule/pei_zhi_wen_jian_he_pei_zhi_lei_yue_ding.md)
    * [Web开发约定](devrule/webkai_fa_yue_ding.md)
-* [应用方式](yingyong/ying_yong_fang_shi.md)
+* [框架应用](yingyong/ying_yong_fang_shi.md)
    * [DLL引用方式](yingyong/dllyin_yong_fang_shi.md)
    * [WCF服务引用方式](yingyong/wcffu_wu_yin_yong_fang_shi.md)
    * [数据访问层调用方式](yingyong/shu_ju_fang_wen_ceng_diao_yong_fang_shi.md)
