@@ -6,6 +6,8 @@
  
  1. 新建服务实体类User
  2. 在服务接口层(Utour.DemoDataService.ServiceInterface)创建一个业务单元服务接口即契约(Contract)，如：IUserService,使其继承Utour.Framework.Service.IService接口，并使用[ServiceContract]标记该接口
+    
+    示例代码
     ```C#
     /// <summary>
     /// 用户数据服务接口
