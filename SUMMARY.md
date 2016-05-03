@@ -27,6 +27,6 @@
    * [数据库提供者配置(DBProviderConfig)](configintro/dbproviderconfigpei_zhi.md)
    * [数据适配器配置(DBCategoryConfig)](configintro/dbcategoryconfigpei_zhi.md)
    * [缓存提供者配置(CacheProviderConfig)](configintro/cacheproviderconfigpei_zhi.md)
-   * [DBCategoryConfig](configintro/dbcategoryconfig.md)
+   * [缓存适配器配置(CacheCategoryConfig)](configintro/dbcategoryconfig.md)
 * 附录
 
