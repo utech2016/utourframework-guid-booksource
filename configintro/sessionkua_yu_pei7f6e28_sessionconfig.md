@@ -1,5 +1,7 @@
 # Session跨域配置(SessionConfig)
 
+
+配置结构及样例
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <SessionConfig>
