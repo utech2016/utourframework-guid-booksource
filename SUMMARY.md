@@ -30,5 +30,6 @@
    * [缓存适配器配置(CacheCategoryConfig)](configintro/dbcategoryconfig.md)
    * [服务宿主配置(ServiceHostConfig)](configintro/fu_wu_su_zhu_pei_7f6e28_servicehostconfig.md)
    * [服务客户端配置(ServiceClientConfig)](configintro/fu_wu_ke_hu_duan_pei_7f6e28_serviceclientconfig.md)
+   * Session跨域配置(SessionConfig)
 * 附录
 
