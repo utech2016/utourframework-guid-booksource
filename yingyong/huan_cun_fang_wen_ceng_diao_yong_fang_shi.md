@@ -5,7 +5,7 @@
 >3. 在业务逻辑层使用```Utour.Framework.Cache.CacheAdapterFactory.GetCacheAdapter<T>()```方法进行调用
 
 ```C#
-IUserCacheAdapter userCA=CacheAdapterFactory.GetInstance().GetCacheAdapter<IUserCacheAdapter>();
-List<User> userList = userCA.GetList();
+  IUserCacheAdapter userCA=CacheAdapterFactory.GetInstance().GetCacheAdapter<IUserCacheAdapter>();
+  List<User> userList = userCA.GetList();
 ```
 
