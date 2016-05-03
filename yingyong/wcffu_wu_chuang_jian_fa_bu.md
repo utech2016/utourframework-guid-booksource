@@ -13,19 +13,19 @@
 
 1. 在宿主项目```Web.config```文件的```serviceActivations```节点中加入服务自动激活配置
 
-框架Demo中的示例
-```xml
-  <system.serviceModel>
-  <serviceHostingEnvironment  multipleSiteBindingsEnabled="true" aspNetCompatibilityEnabled="false">
-    <serviceActivations>
-      <add service="Utour.DemoDataService.Business.UserService" 
-           relativeAddress="UserService.svc" 
-           actory="Utour.Framework.Service.WCFServiceHostFactory"
-       />
-      </serviceActivations>
-  </serviceHostingEnvironment>
-</system.serviceModel>
-  ```
+  框架Demo中的示例
+  ```xml
+    <system.serviceModel>
+    <serviceHostingEnvironment  multipleSiteBindingsEnabled="true" aspNetCompatibilityEnabled="false">
+      <serviceActivations>
+        <add service="Utour.DemoDataService.Business.UserService" 
+             relativeAddress="UserService.svc" 
+             actory="Utour.Framework.Service.WCFServiceHostFactory"
+         />
+        </serviceActivations>
+    </serviceHostingEnvironment>
+  </system.serviceModel>
+    ```
   
 2. 在```ServiceHost.config```文件的WCFServiceHosts节点加入一个WCFServiceHost服务宿主配置（[详细配置说明](../configintro/fu_wu_su_zhu_pei_7f6e28_servicehostconfig.md)）
 
