@@ -1,6 +1,6 @@
 # js,css版本配置(VersionConfig)
 
-js,css版本管理配置，主要作用，给所有页面引用的js，css自动附加文件请求版本号，防止页面js,css客户端缓存，浏览器无法获取最新版本js,css文件
+js,css版本管理配置，对应配置文件Version.config,主要作用，给所有页面引用的js，css自动附加文件请求版本号，防止页面js,css客户端缓存，浏览器无法获取最新版本js,css文件
 
 配置结构及样例：
 ```xml
