@@ -32,5 +32,6 @@
    * [服务客户端配置(ServiceClientConfig)](configintro/fu_wu_ke_hu_duan_pei_7f6e28_serviceclientconfig.md)
    * Session跨域配置(SessionConfig)
    * 异常调式配置(ExceptionConfig)
+   * js,css文件版本管理(VersionConfig)
 * 附录
 
