@@ -35,5 +35,6 @@
    * [js,css版本配置(VersionConfig)](configintro/js_css_wen_jian_ban_ben_pei_zhi.md)
    * [WebApi接口缓存配置(WebApiCacheConfig)](configintro/webapijie_kou_huan_cun_pei_7f6e28_webapicacheconfi.md)
    * [WebApi调用密钥配置(WebApiAuthConfig)](configintro/webapidiao_yong_mi_yao_pei_7f6e28_webapiauthconfig.md)
+   * Log4net配置(log4net.config)
 * 附录
 
