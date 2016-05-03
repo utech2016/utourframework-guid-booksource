@@ -38,5 +38,5 @@
     ```C#
       @VersionHelper.StylesRender(virtualpath)
       @VersionHelper.ScriptsRender(virtualpath)
-      注：virtualpath为StyleBundle和ScriptBundle节点virtualpath属性值
+      //注：virtualpath为StyleBundle和ScriptBundle节点virtualpath属性值
     ```
