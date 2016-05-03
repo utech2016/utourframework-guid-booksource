@@ -1,8 +1,8 @@
 # 3.5 Session共享集成方式
 架构中为了使Session可以跨域使用, 使用Redis作为Session的存储介质.
 1. 引用程序集
-> Utour.Framework.Web.dll
-> Utour.Framework.Session.dll
+  >  Utour.Framework.Web.dll
+  >  Utour.Framework.Session.dll
 2. 使Global.asax.cs的```MvcApplication```类继承```Utour.Framework.Web.MvcApplicationBase```.
 3. 重写Application_Start(), 方法最后调用```base.Application_Start()```以完成Session存储Redis准备工作
 ```C#
