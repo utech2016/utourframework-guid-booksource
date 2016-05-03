@@ -32,7 +32,7 @@
    * [服务客户端配置(ServiceClientConfig)](configintro/fu_wu_ke_hu_duan_pei_7f6e28_serviceclientconfig.md)
    * [Session共享配置(SessionConfig)](configintro/sessionkua_yu_pei7f6e28_sessionconfig.md)
    * [异常调式配置(ExceptionConfig)](configintro/yi_chang_diao_shi_pei7f6e28_exceptionconfig.md)
-   * [js,css文件版本管理(VersionConfig)](configintro/js,csswen_jian_ban_ben_guan_740628_versionconfig.md)
+   * [js,css文件版本配置(VersionConfig)](configintro/js,csswen_jian_ban_ben_guan_740628_versionconfig.md)
    * WebApi接口缓存配置(WebApiCacheConfig)
    * WebApi调用密钥配置(WebApiAuthConfig)
 * 附录
