@@ -38,7 +38,7 @@
 ##如何应用
    只需要在引用css和js视图页面的位置使用如下两行代码即可.
    
-      ```C#
+      ```Asp.Net
       @VersionHelper.StylesRender(virtualpath)
       @VersionHelper.ScriptsRender(virtualpath)
       @*注：virtualpath为StyleBundle和ScriptBundle节点virtualpath属性值
