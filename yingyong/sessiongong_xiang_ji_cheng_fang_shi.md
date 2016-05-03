@@ -13,13 +13,13 @@ protected override void Application_Start()
 		base.Application_Start();
 }
 ```
-4. 在Session.Config中配置站点的Domain,如下
+4. 在[Session.Config](../configintro/sessionkua_yu_pei7f6e28_sessionconfig.md)中配置站点的Domain,如下
 ```xml
 <SessionConfig>
     <SessionDomain>utour.com</SessionDomain>
 </SessionConfig>
 ```
-5. 在CacheProvider.Config中配置Redis连接串
+5. 在[CacheProvider.Config](../configintro/cacheproviderconfigpei_zhi.md)中配置Redis连接串
 ```xml
 <CacheProvider category="Redis">
       <CacheConnections>
