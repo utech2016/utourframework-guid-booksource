@@ -33,5 +33,6 @@
    * Session跨域配置(SessionConfig)
    * 异常调式配置(ExceptionConfig)
    * js,css文件版本管理(VersionConfig)
+   * WebApi接口缓存配置(WebApiCacheConfig)
 * 附录
 
