@@ -7,7 +7,7 @@
 >2. 数据访问实现类, 需要从```DataAdapterBase```基类, ```Framework.Database.IDataAdapter```和对应的数据访问接口继承. 不同数据访问方式中的实现类的命名空间各有不同, 分别为: ```Utour.DemoDataService.DataAccess.ADO,Utour.DemoDataService.DataAccess.LinqToSql```, ```Utour.DemoDataService.DataAccess.EF```.
 >3. 同一数据访问接口对应的多个数据适配器, 一般为对同一数据访问接口在不同种数据库上的实现.
 例如: ```UserDataAdaperForSqlServer```和```UserDataAdaperForMySql```分别对应```IUserDataAdapter```接口在SqlServer和MySql数据库上的实现
->4. 数据适配器类名称格式为: 业务单元名称 + DataAdapter + For数据库类型
->5. Sqlmap文件名称格式为: 业务单元名称.sqlmap
->6. XmlSource文件名称格式为: DataModel类型名称.mapping.xml
+>4. 数据适配器类名称格式为: ```业务单元名称 + DataAdapter + For数据库类型```
+>5. Sqlmap文件名称格式为: ```业务单元名称.sqlmap```
+>6. XmlSource文件名称格式为: ```DataModel类型名称.mapping.xml```
 
