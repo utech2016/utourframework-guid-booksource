@@ -24,4 +24,7 @@
     </serviceHostingEnvironment>
   </system.serviceModel>
   ```
-2. 
+2. 在ServiceHost.config文件中进行服务相关设置（详细配置说明）
+```xml
+  
+```
