@@ -14,7 +14,7 @@ Web开发约定主要规定开发人员进行Asp.Net Mvc网站开发时而制定
   //脚本文件引用
   @VersionHelper.ScriptsRender(virtualpath)
 ```
-VersionHelper在```Utour.Framework.Web```中定义
+VersionHelper类在```Utour.Framework.Web```中定义
 
 
 
