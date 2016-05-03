@@ -1,7 +1,7 @@
 # 服务客户端配置(ServiceClientConfig)
 ServiceClientConfig wcf服务客户端引用配置，对应配置文件ServiceClient.config.
 
-配置结构及样例:
+### 配置结构及样例
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!--WCF客户端引用服务配置文件，每引用一个外部WCF接口服务时，则需要在Client节点添加一行ClientEndpoint客户端配置-->
