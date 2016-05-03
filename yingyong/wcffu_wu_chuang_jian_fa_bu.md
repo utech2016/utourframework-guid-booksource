@@ -16,7 +16,7 @@
     <system.serviceModel>
     <serviceHostingEnvironment  multipleSiteBindingsEnabled="true" aspNetCompatibilityEnabled="false">
       <serviceActivations>
-        <add service="UserService" 
+        <add service="Utour.DemoDataService.Business.UserService" 
              relativeAddress="UserService.svc" 
              actory="Utour.Framework.Service.WCFServiceHostFactory"
          />
