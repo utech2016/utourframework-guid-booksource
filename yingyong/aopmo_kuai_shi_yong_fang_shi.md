@@ -14,5 +14,5 @@ public class AopTest : ContextBoundObject
 ```
 其中AOPLogHandler是实现IAOPHandler接口的处理拦截事件的具体实现.
 2. 正常调用方法, 日志会记录到本地文件里.
-3. 开关AOP日志可以在log4net.config中配置
+3. 开关AOP日志可以在[log4net.config](../configintro/log4netpei_log4net_config.md)中配置
 
