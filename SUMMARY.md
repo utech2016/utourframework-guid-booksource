@@ -27,5 +27,6 @@
    * [DBProviderConfig配置](configintro/dbproviderconfigpei_zhi.md)
    * [DBCategoryConfig配置](configintro/dbcategoryconfigpei_zhi.md)
    * [CacheProviderConfig配置](configintro/cacheproviderconfigpei_zhi.md)
+   * DBCategoryConfig
 * 附录
 
