@@ -23,7 +23,7 @@ CacheProviderConfig缓存配置类，对应配置文件CacheProvider.config,项�
        writeConnectionsString：可写缓存连接串（必须）
        maxWritePoolSize：“写”链接池链接数（默认为10）目前针对Redis缓存生效(可选)
        maxReadPoolSize：“读”链接池链接数 (默认为10)，目前针对Redis缓存生效(可选)
-       regionName：缓存范围名称，当缓存为Redis时，regionName即redis的db名称，因redis中的db默认以整数数字命名，因此必须为redis可支持最大db之间的数字(必须)       
+       regionName：缓存范围名称，当缓存为Redis时，regionName即redis的db名称，因redis中的db默认以整数数字命名，因此必须为redis可支持最大db之间的数字(必须),针对       
       -->
         <CacheConnection name="BusinessCache" readConnectionsString="127.0.0.1:6379" writeConnectionsString="127.0.0.1:6379" regionName="1"/>
       </CacheConnections>
