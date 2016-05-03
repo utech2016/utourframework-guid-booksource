@@ -24,7 +24,13 @@
     </serviceHostingEnvironment>
   </system.serviceModel>
   ```
-2. 在ServiceHost.config文件中进行服务相关设置（详细配置说明）
+2. 在ServiceHost.config文件WCFServiceHosts节点加入一个WCFServiceHost服务宿主设置（详细配置说明）
 ```xml
-  
+     <WCFServiceHost serviceName="Utour.DemoDataService.Business.UserService" baseAddress ="">
+      <Endpoints>
+        <ServiceEndpoint category="WCFClassic" 
+                          relativeAddress="" 
+                          contract="Utour.DemoDataService.ServiceInterface.IUserService" />
+      </Endpoints>
+    </WCFServiceHost>
 ```
