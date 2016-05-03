@@ -38,4 +38,4 @@
     </WCFServiceHost>
   ```
   
-  
+  3. 启动宿主项目，发布wcf服务
