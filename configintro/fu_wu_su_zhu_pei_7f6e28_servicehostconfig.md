@@ -1,7 +1,7 @@
 # 服务宿主配置(ServiceHostConfig)
 wcf 服务宿主配置，对应配置文件ServiceHost.config,此配置完全将传统创建wcf服务自动生成的一堆配置进行化繁为简，使其配置更加清晰明了，避免了因服务过多而导致web.config的庞大臃肿。
 
-配置结构及样例:
+### 配置结构及样例
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!--wcf服务宿主配置，支持多宿主(Host)，多终结点(EndPoint)，多绑定(Binding)配置-->
