@@ -1,4 +1,4 @@
-# CacheProviderConfig配置
+# 缓存提供者配置(CacheProviderConfig)
 
 CacheProviderConfig缓存配置类，对应配置文件CacheProvider.config,项目所需的所有缓存连接串在此配置文件中配置.
 
