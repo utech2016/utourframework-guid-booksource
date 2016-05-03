@@ -265,10 +265,7 @@
    XXXErrorRemotingAppender：远程调用日志服务，通过日志服务将ERROR级别的日志输出到MongoDB中
    XXXRecordRemotingAppender：远程调用日志服务，通过日志服务将框架的服务和网站上下文信息输出到MongoDB中
   -->
-  
-  <!--
-   Utour.Framework.Log.CommonLogger 在非站点或服务中记录日志使用
-  -->
+  <!--Utour.Framework.Log.CommonLogger 在非站点或服务中记录日志使用-->
   <logger name="Utour.Framework.Log.CommonLogger">
     <level value="ALL" />
     <appender-ref ref="CommonInfoFileAppender" />
@@ -277,19 +274,15 @@
     <appender-ref ref="CommonErrorRemotingAppender" />
   </logger>
 
-  <!--
-   Utour.Framework.Log.AOPLogger 切面日志，用于开发检测方法执行前后日志
-   一般在生产环境不会使用
-  -->
+  <!--Utour.Framework.Log.AOPLogger 切面日志，用于开发检测方法执行前后日志 
+   一般在生产环境不会使用 -->
   <logger name="Utour.Framework.Log.AOPLogger">
     <level value="ALL" />
     <appender-ref ref="AOPFileAppender" />
     <appender-ref ref="AOPRemotingAppender" />
   </logger>
   
-  <!--
-   Utour.Framework.Log.ServiceLogger 在wcf服务中记录日志使用
-  -->
+  <!--Utour.Framework.Log.ServiceLogger 在wcf服务中记录日志使用-->
   <logger name="Utour.Framework.Log.ServiceLogger">
     <level value="ALL" />
     <appender-ref ref="ServiceRecordFileAppender" />
@@ -298,9 +291,7 @@
     <appender-ref ref="ServiceRemotingAppender" />
     <appender-ref ref="ServiceRecordRemotingAppender"/>
   </logger>
-  <!--
-   Utour.Framework.Log.WebLogger 在站点下记录日志使用
-  -->
+  <!--Utour.Framework.Log.WebLogger 在站点下记录日志使用-->
  <logger name="Utour.Framework.Log.WebLogger">
     <level value="ALL" />
     <appender-ref ref="WebInfoFileAppender" />
