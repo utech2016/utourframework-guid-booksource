@@ -1,6 +1,6 @@
 # 2.9 Web开发约定
 
-Web开发约定主要规定开发人员进行MVC网站开发时而制定的一种默认约定.
+Web开发约定主要规定开发人员进行Asp.Net Mvc网站开发时而制定的一种默认约定.
 
 >1. Global.asax必须继承抽象类```Utour.Framework.Web.MvcApplicationBase```
 >2. 控制器建议继承```Utour.Framework.Web.UtourControllerBase```
