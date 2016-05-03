@@ -4,6 +4,6 @@
  
  ####wcf服务创建
  
- *1. 在服务接口层(ServiceInterface)创建一个业务单元服务接口，如：IUserService
+ *1. 在服务接口层(ServiceInterface)创建一个业务单元服务接口，如：IUserService,使其继承IService
  *2. 
  *3. 
