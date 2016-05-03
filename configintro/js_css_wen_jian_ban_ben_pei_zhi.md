@@ -1,13 +1,10 @@
 # js,css版本配置(VersionConfig)
 
+js,css版本管理配置，主要作用，给所有页面引用的js，css自动附加文件请求版本号，防止页面js,css客户端缓存，浏览器无法获取最新版本js,css文件
 
 配置结构及样例：
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-   js,css版本管理配置，主要作用，给所有页面引用的js，css自动附加文件请求版本号，
-   防止页面js,css客户端缓存，浏览器无法获取最新版本js,css文件
--->
 <VersionConfig>
   <!--样式文件url根路径，此根路径会和StyleBundle节点所有配置为相对路径的networkpath属性值进行拼接，得到每个css的完全请求路径-->
   <StylePath>http://www.aaa.com/css</StylePath>
