@@ -1,4 +1,4 @@
-# Session跨域配置(SessionConfig)
+# Session共享配置(SessionConfig)
 
 
 配置结构及样例
