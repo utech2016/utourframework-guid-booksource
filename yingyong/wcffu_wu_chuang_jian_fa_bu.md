@@ -12,7 +12,6 @@
 ###wcf服务发布(BasicHttpBinding)
 
 1. 在宿主项目```Web.config```文件的```serviceActivations```节点中加入服务自动激活配置
-
 ```xml
   <system.serviceModel>
   <serviceHostingEnvironment  multipleSiteBindingsEnabled="true" aspNetCompatibilityEnabled="false">
