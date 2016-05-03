@@ -8,7 +8,7 @@
 * **Utour.Framework.Web**
   >统一Session存储，通过简单配置实现不同站点的Session共享，统一Controller拦截错误处理，统一Json结果处理返回,WebApi调用封装，WebApi接口缓存
 * **Utour.Framework.Config**
-  >配置统一管理监控实时更新，提供客户自定义配置，可通过配置工厂读取自定义配置，目前框架已提供了内置的几种配置，详细见[框架内置配置说明][0]
+  >配置统一管理监控实时更新，提供客户自定义配置，可通过配置工厂读取自定义配置，目前框架已提供了内置的几种配置，详细见[框架配置说明][0]
 * **Utour.Framework.Cache**
   >提供不同缓存(目前框架已提供Redis,Memcached，AppFabric,IIS Cache)的基础操作API,内置缓存适配器接口，提供开发人员继承实现不同业务类型的缓存操作适配器，并可通过框架缓存配置和缓存适配器工厂完成动态注入和调用
 * **Utour.Framework.DataBase**
