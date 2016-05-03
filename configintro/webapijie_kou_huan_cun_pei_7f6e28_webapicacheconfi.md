@@ -1,6 +1,6 @@
 # WebApi接口缓存配置(WebApiCacheConfig)
 
-WebApi接口缓存配置,可配置对某一个Controller的某个方法的返回结果进行缓存。
+WebApi接口缓存配置,对应配置文件```WebApiCache.config```可配置对某一个Controller的某个方法的返回结果进行缓存。
 
 ###配置结构及样例
 
