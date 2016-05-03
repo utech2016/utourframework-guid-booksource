@@ -26,5 +26,6 @@
 * [框架配置说明](configintro/kuang_jia_pei_zhi_yang_li.md)
    * [DBProviderConfig配置](configintro/dbproviderconfigpei_zhi.md)
    * [DBCategoryConfig配置](configintro/dbcategoryconfigpei_zhi.md)
+   * CacheProviderConfig配置
 * 附录
 
