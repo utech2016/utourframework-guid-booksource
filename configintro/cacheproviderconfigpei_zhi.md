@@ -2,7 +2,7 @@
 
 CacheProviderConfig缓存提供者配置类，对应配置文件CacheProvider.config,项目所需的所有缓存连接串在此配置文件中配置.
 
-配置结构及样例：
+### 配置结构及样例
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!--缓存连接配置，同一种category只能对应一个CacheProvider配置，不得重复出现，缓存连接串请在对应CacheConnections节点下添加-->
