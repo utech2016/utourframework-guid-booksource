@@ -28,5 +28,5 @@ public class ServiceLogger : Logger
 ```
 与CommonLogger的区别在于ServiceLogger可以自动记录服务名称, 所在服务器等, 推荐在服务中使用.
 
-4. 将log4net.config文件置于MonitorFiles/Config下. 具体配置log4net.config, 请参照[配置示例][www.baidu.com].
+4. 将log4net.config文件置于MonitorFiles/Config下. 具体配置log4net.config, 请参照[配置示例](../configintro/log4netpei_log4net__config.md)
 
