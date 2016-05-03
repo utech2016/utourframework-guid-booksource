@@ -27,7 +27,6 @@
   ```
  
 2. 在```ServiceHost.config```文件的WCFServiceHosts节点加入一个WCFServiceHost服务宿主配置（[详细配置说明](../configintro/fu_wu_su_zhu_pei_7f6e28_servicehostconfig.md)）
-
 ```xml
      <WCFServiceHost serviceName="Utour.DemoDataService.Business.UserService" baseAddress ="">
       <Endpoints>
