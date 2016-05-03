@@ -16,7 +16,7 @@
    * [Web开发约定](devrule/webkai_fa_yue_ding.md)
 * [框架应用](yingyong/ying_yong_fang_shi.md)
    * [DLL引用方式](yingyong/dllyin_yong_fang_shi.md)
-   * WCF服务创建和发布
+   * WCF服务创建发布
    * [WCF服务引用方式](yingyong/wcffu_wu_yin_yong_fang_shi.md)
    * [数据访问层调用方式](yingyong/shu_ju_fang_wen_ceng_diao_yong_fang_shi.md)
    * [缓存访问层调用方式](yingyong/huan_cun_fang_wen_ceng_diao_yong_fang_shi.md)
