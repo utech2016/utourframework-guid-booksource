@@ -2,7 +2,7 @@
 
 脚本样式文件版本管理配置，对应配置文件Version.config,主要作用，给所有页面引用的js，css自动附加文件请求版本号，防止页面js,css客户端缓存，浏览器无法获取最新版本js,css文件而导致新的js,css无法生效的问题。
 
-## 配置结构及样例
+### 配置结构及样例
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <VersionConfig>
