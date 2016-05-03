@@ -27,4 +27,4 @@
 
 
 
-[0]:http://www.baidu.com/
+[0]:../configintro/kuang_jia_pei_zhi_yang_li.md
