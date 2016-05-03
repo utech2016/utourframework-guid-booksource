@@ -30,7 +30,7 @@
     <ScriptBundle virtualpath="~/js/site" networkpath="/Site.js?v={version}" version="1.0.0"/>
   </ScriptBundles>
 </VersionConfig>
-```xml
+```
 
 ## 如何应用
    只需要在引用css和js视图页面的位置使用如下两行代码即可.
