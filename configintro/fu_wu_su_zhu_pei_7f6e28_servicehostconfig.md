@@ -25,7 +25,9 @@ wcf 服务宿主配置，对应配置文件ServiceHost.config,此配置完全将
         relativeAddress：服务的相对地址(当category 为MSMQ，TCP时，此属性为必须设置项，其他默认设为""即可)
         contract：服务端契约，即服务端接口全限定名称（必须）
         -->
-        <ServiceEndpoint category="WCFClassic" relativeAddress="" contract="Utour.DemoDataService.ServiceInterface.IUserService" />
+        <ServiceEndpoint category="WCFClassic" 
+                         relativeAddress="" 
+                         contract="Utour.DemoDataService.ServiceInterface.IUserService" />
       </Endpoints>
     </WCFServiceHost>
   </WCFServiceHosts>
