@@ -25,7 +25,7 @@
    * [WebAPI调用集成](yingyong/webapidiao_yong_ji_cheng.md)
 * [框架配置说明](configintro/kuang_jia_pei_zhi_yang_li.md)
    * [数据库提供者配置(DBProviderConfig)](configintro/dbproviderconfigpei_zhi.md)
-   * [数据库适配器配置(DBCategoryConfig)](configintro/dbcategoryconfigpei_zhi.md)
+   * [数据适配器配置(DBCategoryConfig)](configintro/dbcategoryconfigpei_zhi.md)
    * [CacheProviderConfig](configintro/cacheproviderconfigpei_zhi.md)
    * [DBCategoryConfig](configintro/dbcategoryconfig.md)
 * 附录
