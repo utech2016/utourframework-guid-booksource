@@ -29,5 +29,6 @@
    * [缓存提供者配置(CacheProviderConfig)](configintro/cacheproviderconfigpei_zhi.md)
    * [缓存适配器配置(CacheCategoryConfig)](configintro/dbcategoryconfig.md)
    * [服务宿主配置(ServiceHostConfig)](configintro/fu_wu_su_zhu_pei_7f6e28_servicehostconfig.md)
+   * 服务客户端配置(ServiceClientConfig)
 * 附录
 
