@@ -30,7 +30,7 @@
    * [缓存适配器配置(CacheCategoryConfig)](configintro/dbcategoryconfig.md)
    * [服务宿主配置(ServiceHostConfig)](configintro/fu_wu_su_zhu_pei_7f6e28_servicehostconfig.md)
    * [服务客户端配置(ServiceClientConfig)](configintro/fu_wu_ke_hu_duan_pei_7f6e28_serviceclientconfig.md)
-   * Session跨域配置(SessionConfig)
+   * [Session跨域配置(SessionConfig)](configintro/sessionkua_yu_pei7f6e28_sessionconfig.md)
    * 异常调式配置(ExceptionConfig)
    * js,css文件版本管理(VersionConfig)
    * WebApi接口缓存配置(WebApiCacheConfig)
