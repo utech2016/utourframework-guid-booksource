@@ -1,7 +1,7 @@
 # 数据库提供者配置(DBProviderConfig)
 DBProviderConfig 数据库提供者配置类，对应配置文件DBProvider.config,项目所需的所有数据库连接串在此配置文件中配置
 
-配置结构及样例：
+### 配置结构及样例
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!--数据库连接配置，同一种category只能对应一个DBProvider配置，不得重复出现，数据库连接串请在对应DBConnections节点下添加-->
