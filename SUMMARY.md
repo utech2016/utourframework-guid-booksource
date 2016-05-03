@@ -16,6 +16,7 @@
    * [Web开发约定](devrule/webkai_fa_yue_ding.md)
 * [框架应用](yingyong/ying_yong_fang_shi.md)
    * [DLL引用方式](yingyong/dllyin_yong_fang_shi.md)
+   * WCF服务创建和发布
    * [WCF服务引用方式](yingyong/wcffu_wu_yin_yong_fang_shi.md)
    * [数据访问层调用方式](yingyong/shu_ju_fang_wen_ceng_diao_yong_fang_shi.md)
    * [缓存访问层调用方式](yingyong/huan_cun_fang_wen_ceng_diao_yong_fang_shi.md)
@@ -23,7 +24,6 @@
    * [AOP模块使用方式](yingyong/aopmo_kuai_shi_yong_fang_shi.md)
    * [日志模块使用方式](yingyong/ri_zhi_mo_kuai_shi_yong_fang_shi.md)
    * [WebAPI调用集成](yingyong/webapidiao_yong_ji_cheng.md)
-   * WCF服务创建和发布
 * [框架配置说明](configintro/kuang_jia_pei_zhi_yang_li.md)
    * [数据库提供者配置(DBProviderConfig)](configintro/dbproviderconfigpei_zhi.md)
    * [数据适配器配置(DBCategoryConfig)](configintro/dbcategoryconfigpei_zhi.md)
