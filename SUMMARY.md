@@ -34,5 +34,6 @@
    * 异常调式配置(ExceptionConfig)
    * js,css文件版本管理(VersionConfig)
    * WebApi接口缓存配置(WebApiCacheConfig)
+   * WebApi调用密钥配置(WebApiAuthConfig)
 * 附录
 
