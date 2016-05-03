@@ -1,4 +1,4 @@
-# DBCategoryConfig配置
+# 数据适配器配置(DBCategoryConfig)
 
 数据适配器类配置，在此配置项目中所有实现业务数据库适配器接口的适配器类，在用```DataAdapterFactory```调用对应适配器接口时，框架会根据此配置动态注入生成对应适配器实例
 
