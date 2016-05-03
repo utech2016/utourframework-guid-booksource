@@ -33,7 +33,7 @@
    * [Session共享配置(SessionConfig)](configintro/sessionkua_yu_pei7f6e28_sessionconfig.md)
    * [异常调式配置(ExceptionConfig)](configintro/yi_chang_diao_shi_pei7f6e28_exceptionconfig.md)
    * [js,css版本配置(VersionConfig)](configintro/js_css_wen_jian_ban_ben_pei_zhi.md)
-   * WebApi接口缓存配置(WebApiCacheConfig)
+   * [WebApi接口缓存配置(WebApiCacheConfig)](configintro/webapijie_kou_huan_cun_pei_7f6e28_webapicacheconfi.md)
    * WebApi调用密钥配置(WebApiAuthConfig)
 * 附录
 
