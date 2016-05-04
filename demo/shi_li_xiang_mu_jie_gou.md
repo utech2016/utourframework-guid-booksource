@@ -10,9 +10,11 @@
    >逻辑层服务项目目录
 3. demodataservice.utour.com
    >数据层服务项目目录
-4. Utour-Bins
+4. damoapi.utour.com
+   >WebApi项目
+5. Utour-Bins
   >所有项目的DLL输出目录 	
-5. Utour-Bins/xxx.xxx.com/Debug
+6. Utour-Bins/xxx.xxx.com/Debug
    >对应各自项目的Debug版DLL输出目录
-6. tour-Bins/xxx.xx.com/Release
+7. tour-Bins/xxx.xx.com/Release
    >对应各自项目的Release版DLL输出目录
