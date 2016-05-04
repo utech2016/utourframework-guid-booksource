@@ -28,7 +28,7 @@
     </location>
    ```
    
-   2. 直接在监控目录下新建一个子Web.config，配置为如下内容：
+ 2. 直接在监控目录下新建一个子Web.config，配置为如下内容：
      ```xml
        <configuration>  
         <system.web>
