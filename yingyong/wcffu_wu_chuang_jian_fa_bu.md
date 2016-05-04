@@ -10,7 +10,7 @@
  
  3. 添加接口方法列表，每个方法加上[OperationContract]标记
 
- 4. 在业务层（Utour.DemoDataService.Business）新建一个对上步接口的实现类，如UserService，并实现IUserService接口
+ 4. 在业务层（Utour.DemoDataService.Business）新建一个对服务接口的实现类，如UserService，并实现IUserService接口
 
     示例代码
     ```C#
