@@ -19,3 +19,4 @@
 7. tour-Bins/xxx.xx.com/Release
    >对应各自项目的Release版DLL输出目录
 
+###项目存放目录结构
