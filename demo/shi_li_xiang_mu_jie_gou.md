@@ -86,20 +86,21 @@
    >Utour.DemoDataService.ServiceHost: 服务iis宿主项目, 提供服务调试入口，部署发布.
 
 /BL: 解决方案文件夹, 存放业务逻辑和业务层的实体和接口
-  >Utour.DemoDataService.Bussiness: 业务逻辑项目, 包含服务契约接口的实现和其它内部业务逻辑
+  >Utour.DemoDataService.Bussiness: 业务逻辑项目, 包含服务契约接口的实现和其它内部业务逻辑<br/>
   >Utour.DemoDataService.CAInterface: 缓存数据存取接口<br/>
   >Utour.DemoDataService.DAInterface: 数据库数据存取接口
 
 /Config:配置实体解决方案目录
   >Utour.DemoDataService.Config: \*.Config文件映射的实体
+
 /Data: 解决方案文件夹, 存放数据存取层的项目
-  >Utour.DemoDataService.CacheAccess: 缓存数据存取, 实现CAInterface中的接口
+  >Utour.DemoDataService.CacheAccess: 缓存数据存取, 实现CAInterface中的接口<br/>
   >Utour.DemoDataService.DataAccess: 数据库数据存取, 实现DAInterface中的接口
 
 /Entity:解决方案文件夹
   >Utour.DemoDataService.Entity:服务传输实体对象定义，数据库映射实体定义
 
 /Interface: 解决方案文件夹, 存放项目定义的接口，服务接口，缓存接口，数据接口等
-  >Utour.DemoDataService.ServiceInterface: 服务的契约接口
+  >Utour.DemoDataService.ServiceInterface: 服务的契约接口<br/>
   >Utour.DemoDataService.CAInterface: 缓存接口<br/>
   >Utour.DemoDataService.DAInterface: 数据接口
