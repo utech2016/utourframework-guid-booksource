@@ -37,5 +37,5 @@
    * [WebApi接口缓存配置(WebApiCacheConfig)](configintro/webapijie_kou_huan_cun_pei_7f6e28_webapicacheconfi.md)
    * [WebApi调用密钥配置(WebApiAuthConfig)](configintro/webapidiao_yong_mi_yao_pei_7f6e28_webapiauthconfig.md)
    * [Log4net配置(log4net.config)](configintro/log4netpei_log4net_config.md)
-* 示例
+* [示例](demo/shi_li.md)
 
