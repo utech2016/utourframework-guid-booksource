@@ -117,4 +117,4 @@
 /deploysite/demodataservice.utour.com/MonitorFiles/Config<br/>
 /deploysite/demodataservice.utour.com/MonitorFiles/SqlMap<br/>
 
-其中将```/deploysite/demodataservice.utour.com```目录作为服务站点根目录进行iis发布即可完成服务的部署
+其中将```/deploysite/demodataservice.utour.com```目录作为服务站点根目录进行iis发布即可完成服务的部署.
