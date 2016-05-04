@@ -39,5 +39,5 @@
    * [WebApi调用密钥配置(WebApiAuthConfig)](configintro/webapidiao_yong_mi_yao_pei_7f6e28_webapiauthconfig.md)
    * [Log4net配置(log4net.config)](configintro/log4netpei_log4net_config.md)
 * [示例](demo/shi_li.md)
-   * 示例项目结构
+   * [示例项目结构](demo/shi_li_xiang_mu_jie_gou.md)
 
