@@ -59,19 +59,19 @@
       * /MonitorFiles
           * /Config--存放\*.Config文件
           * /SqlMap--存放\*.sqlmap或实体映射文件
-/BL
-   Utour.DemoDataService.Bussiness
-/Config
-   Utour.DemoDataService.Config
-/Data
-   Utour.DemoDataService.CacheAccess
-   Utour.DemoDataService.DataAccess
-/Entity
-   Utour.DemoDataService. Entity
-/Interface
-   Utour.DemoDataService.ServiceInterface
-   Utour.DemoDataService.CAInterface
-   Utour.DemoDataService.DAInterface
+> /BL
+   * Utour.DemoDataService.Bussiness
+> /Config
+   * Utour.DemoDataService.Config
+> /Data
+   * Utour.DemoDataService.CacheAccess
+   * Utour.DemoDataService.DataAccess
+> /Entity
+   * Utour.DemoDataService. Entity
+> /Interface
+   * Utour.DemoDataService.ServiceInterface
+   * Utour.DemoDataService.CAInterface
+   * Utour.DemoDataService.DAInterface
 
 其中: 
 /Application: ServiceDemo服务解决方案文件夹, 存放服务宿主项目
