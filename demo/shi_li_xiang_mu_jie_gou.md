@@ -27,19 +27,19 @@
 * /demodataservice.utour.com/Utour.DemoDataService.Business
   >业务逻辑实现，在此实现所有业务逻辑操作
 * /demodataservice.utour.com/Utour.DemoDataService.DAInterface
-    子项目目录
+   >数据接口层，在此定义各种业务单元数据操作接口
 * /demodataservice.utour.com/Utour.DemoDataService.DataAccess
-  >DataAccess子项目目录
+  >数据操作实现层，提供对数据接口层的某种数据库类型的实现
 * /demodataservice.utour.com/Utour.DemoDataService.CAInterface
-   >CAInterface子项目目录
+   >缓存接口层，在此定义各种业务单元缓存操作接口
 * /demodataservice.utour.com/Utour.DemoDataService.CacheAccess
-  >CacheAccess子项目目录
+  >缓存操作实现层，提供对缓存接口层的某种缓存数据库类型的实现
 * /demodataservice.utour.com/Utour.DemoDataService.Config
-  >Config子项目目录
+  >自定义配置，在此项目继承ConfigUnit(配置基类)创建不同业务配置类
 * /demodataservice.utour.com/Utour.DemoDataService.Entity
-  >Entity子项目目录
+  >业务对象或数据实体层
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost
-  >ServiceHost子项目目录
+  >服务宿主项目，提供IIS宿主环境，调试服务的入口项目
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceInterface
   >ServiceInterface子项目目录
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles: 
