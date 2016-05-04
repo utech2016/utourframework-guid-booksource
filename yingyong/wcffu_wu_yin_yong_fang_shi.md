@@ -6,14 +6,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ServiceClientConfig>
   <Client>
-    <ClientEndpoint 
-            address="http://demodataservice.utour.com/UserService.svc" 
-            binding="basicHttpBinding" 
-            contract="Utour.DemoDataService.ServiceInterface.IUserService" 
-            maxReceivedMessageSize="6553600" 
-            maxStringContentLength="819200" 
-            sendTimeout="00:01:00" 
-            receiveTimeout="00:01:00"/>
+      <ClientEndpoint 
+              address="http://demodataservice.utour.com/UserService.svc" 
+              binding="basicHttpBinding" 
+              contract="Utour.DemoDataService.ServiceInterface.IUserService" 
+              maxReceivedMessageSize="6553600" 
+              maxStringContentLength="819200" 
+              sendTimeout="00:01:00" 
+              receiveTimeout="00:01:00"/>
    </Client>
 </ServiceClientConfig>
 ```
