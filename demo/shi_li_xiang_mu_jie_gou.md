@@ -34,19 +34,18 @@
    >CAInterface子项目目录
 * /demodataservice.utour.com/Utour.DemoDataService.CacheAccess
   >CacheAccess子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.Config
-Config子项目目录
-
-/demodataservice.utour.com/Utour.DemoDataService.Entity
-Entity子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.ServiceHost
-ServiceHost子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.ServiceInterface
-ServiceInterface子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles: 
-监控文件存放目录
-/demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles/Config: 
-Config文件存放目录
-/demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles/SqlMap: 
-SqlMap文件存放目录
+* /demodataservice.utour.com/Utour.DemoDataService.Config
+  >Config子项目目录
+* /demodataservice.utour.com/Utour.DemoDataService.Entity
+  >Entity子项目目录
+* /demodataservice.utour.com/Utour.DemoDataService.ServiceHost
+  >ServiceHost子项目目录
+* /demodataservice.utour.com/Utour.DemoDataService.ServiceInterface
+  >ServiceInterface子项目目录
+* /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles: 
+  >监控文件存放目录
+* /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles/Config: 
+  >Config文件存放目录
+* /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles/SqlMap: 
+  >SqlMap文件存放目录
 
