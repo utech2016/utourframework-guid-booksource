@@ -53,12 +53,12 @@
 
 ![解决方案目录结构](../images/img6.png)
 
-* /Application
-   >Utour.DemoDataService.ConsoleHost
-   >Utour.DemoDataService.ServiceHost
-      >/MonitorFiles
-          > /Config--存放\*.Config文件
-          > /SqlMap--存放\*.sqlmap或实体映射文件
+> /Application
+   * Utour.DemoDataService.ConsoleHost
+   * Utour.DemoDataService.ServiceHost
+      * /MonitorFiles
+          * /Config--存放\*.Config文件
+          * /SqlMap--存放\*.sqlmap或实体映射文件
 
 > /BL
    * Utour.DemoDataService.Bussiness
