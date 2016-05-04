@@ -1,7 +1,9 @@
 # 示例项目结构
 
-###源代码存放目录结构
+###目录结构
 ![源代码存放目录结构](../images/img3.png)
+![dll输出目录](img4.png)
+
 1. demo.utour.com
    >站点目录
 2. demologicservice.utour.com
@@ -16,3 +18,4 @@
    >对应各自项目的Debug版DLL输出目录
 7. tour-Bins/xxx.xx.com/Release
    >对应各自项目的Release版DLL输出目录
+
