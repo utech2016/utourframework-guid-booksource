@@ -35,7 +35,7 @@
 * /demodataservice.utour.com/Utour.DemoDataService.CacheAccess
   >缓存操作实现层，提供对缓存接口层的某种缓存数据库类型的实现
 * /demodataservice.utour.com/Utour.DemoDataService.Config
-  >自定义配置，在此项目继承ConfigUnit(配置基类)创建不同业务配置类
+  >自定义配置，在此项目创建不同业务配置类
 * /demodataservice.utour.com/Utour.DemoDataService.Entity
   >业务对象或数据实体层
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost
