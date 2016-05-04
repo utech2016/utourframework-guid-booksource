@@ -22,16 +22,29 @@
 ###项目存放目录结构
 ![项目存放目录结构](../images/img5.png)
 
-/demodataservice.utour.com: 项目父目录
-/demodataservice.utour.com/Utour.DemoDataService.Business: Business子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.CacheAccess: CacheAccess子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.CAInterface: CAInterface子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.Config: Config子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.DAInterface: DAInterface子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.DataAccess: DataAccess子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.Entity: Entity子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.ServiceHost: ServiceHost子项目目录
-/demodataservice.utour.com/Utour.DemoDataService.ServiceInterface: ServiceInterface子项目目录
+* /demodataservice.utour.com
+  >项目父目录
+* /demodataservice.utour.com/Utour.DemoDataService.Business
+  >业务逻辑实现，在此实现所有业务逻辑操作
+* /demodataservice.utour.com/Utour.DemoDataService.DAInterface
+    子项目目录
+* /demodataservice.utour.com/Utour.DemoDataService.CAInterface
+   >CAInterface子项目目录
+* /demodataservice.utour.com/Utour.DemoDataService.CacheAccess
+  >CacheAccess子项目目录
+ 
+
+/demodataservice.utour.com/Utour.DemoDataService.Config
+Config子项目目录
+
+/demodataservice.utour.com/Utour.DemoDataService.DataAccess
+DataAccess子项目目录
+/demodataservice.utour.com/Utour.DemoDataService.Entity
+Entity子项目目录
+/demodataservice.utour.com/Utour.DemoDataService.ServiceHost
+ServiceHost子项目目录
+/demodataservice.utour.com/Utour.DemoDataService.ServiceInterface
+ServiceInterface子项目目录
 /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles: 
 监控文件存放目录
 /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles/Config: 
