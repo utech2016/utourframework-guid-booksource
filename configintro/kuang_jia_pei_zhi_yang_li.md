@@ -12,6 +12,21 @@
   ```
 * 必须把配置文件要统一放到 “[监控目录]/Config”下，sqlmap配置放到“[监控目录]/SqlMap”下
 
+####安全事项
+
+ MonitorFiles监控目录下配置涉及数据库缓存连接串等重要信息，为了保障监控目录文件安全，在部署服务或网站项目时，对于外网必须禁用IIS目录浏览，并在Web.config中配置禁止监控目录浏览器访问，有以下两种方式
+ 
+ 1. 直接在项目根Web.config加入以下配置
+   ```xml
+    <!--禁止访问监控目录,MonitorFiles为监控目录名称-->
+    <location path="MonitorFiles">
+        <system.web>
+          <authorization>
+            <deny users="?"/>
+          </authorization>
+        </system.web>
+    </location>
+   ```
 
 
 
