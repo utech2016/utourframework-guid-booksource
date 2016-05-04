@@ -14,7 +14,7 @@
 
 ####安全事项
 
- MonitorFiles监控目录下配置涉及数据库缓存连接串等重要信息，为了保障监控目录文件安全，在部署服务或网站项目时，对于外网必须禁用IIS目录浏览，并在Web.config中配置禁止监控目录浏览器访问，有以下两种方式
+ MonitorFiles监控目录下配置涉及数据库缓存连接串等重要信息，为了保障监控目录文件安全，在部署服务或网站项目时，对于外网必须禁用IIS目录浏览，并在Web.config中针对监控目录设置访问权限，禁止浏览器直接访问，有以下两种方式进行权限设置
  
  1. 直接在项目根Web.config加入以下配置
    ```xml
@@ -30,7 +30,13 @@
    
    2. 直接在监控目录下新建一个子Web.config，配置为如下内容：
      ```xml
-     
+       <configuration>  
+        <system.web>
+          <authorization><!--授权-->  
+            <deny users="?"/><!--阻止匿名用户访问-->  
+          </authorization>  
+        </system.web>  
+      </configuration>
      ```
 
 
