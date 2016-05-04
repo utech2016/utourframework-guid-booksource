@@ -87,7 +87,7 @@
 
 /BL: 解决方案文件夹, 存放业务逻辑和业务层的实体和接口
   >Utour.DemoDataService.Bussiness: 业务逻辑项目, 包含服务契约接口的实现和其它内部业务逻辑
-  >Utour.DemoDataService.CAInterface: 缓存数据存取接口
+  >Utour.DemoDataService.CAInterface: 缓存数据存取接口<br/>
   >Utour.DemoDataService.DAInterface: 数据库数据存取接口
 
 /Config:配置实体解决方案目录
