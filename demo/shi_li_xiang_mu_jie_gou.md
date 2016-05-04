@@ -111,8 +111,8 @@
 
 ![发布目录结构](../images/img7.png)
 
-/deploysite/demodataservice.utour.com
-/deploysite/demodataservice.utour.com/bin
-/deploysite/demodataservice.utour.com/MonitorFiles
-/deploysite/demodataservice.utour.com/MonitorFiles/Config
-/deploysite/demodataservice.utour.com/MonitorFiles/SqlMap
+/deploysite/demodataservice.utour.com<br/>
+/deploysite/demodataservice.utour.com/bin<br/>
+/deploysite/demodataservice.utour.com/MonitorFiles<br/>
+/deploysite/demodataservice.utour.com/MonitorFiles/Config<br/>
+/deploysite/demodataservice.utour.com/MonitorFiles/SqlMap<br/>
