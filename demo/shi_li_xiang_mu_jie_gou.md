@@ -41,7 +41,7 @@
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost
   >服务宿主项目，提供IIS宿主环境，调试服务的入口项目
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceInterface
-  >
+  >wcf服务接口层（契约），在此暴露业务逻辑层的服务
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles: 
   >监控文件存放目录
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles/Config: 
