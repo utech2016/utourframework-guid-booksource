@@ -104,3 +104,13 @@
   >Utour.DemoDataService.ServiceInterface: 服务的契约接口<br/>
   >Utour.DemoDataService.CAInterface: 缓存接口<br/>
   >Utour.DemoDataService.DAInterface: 数据接口
+
+###发布目录结构
+
+以数据服务层项目为例，展开目录结构如下：
+![发布目录结构](../images/img6.png)
+/deploysite/demodataservice.utour.com
+/deploysite/demodataservice.utour.com/bin
+/deploysite/demodataservice.utour.com/MonitorFiles
+/deploysite/demodataservice.utour.com/MonitorFiles/Config
+/deploysite/demodataservice.utour.com/MonitorFiles/SqlMap
