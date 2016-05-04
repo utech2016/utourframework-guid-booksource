@@ -41,7 +41,7 @@
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost
   >服务宿主项目，提供IIS宿主环境，调试服务的入口项目
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceInterface
-  >ServiceInterface子项目目录
+  >
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles: 
   >监控文件存放目录
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles/Config: 
