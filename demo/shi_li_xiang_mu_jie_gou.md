@@ -59,21 +59,16 @@
       * /MonitorFiles
           * /Config--存放\*.Config文件
           * /SqlMap--存放\*.sqlmap或实体映射文件
-
 > /BL
    * Utour.DemoDataService.Bussiness
-
-> > /Config
+> /Config
    * Utour.DemoDataService.Config
-
-> > /Data
+>/Data
    * Utour.DemoDataService.CacheAccess
    * Utour.DemoDataService.DataAccess
-
-> > /Entity
+>  /Entity
    * Utour.DemoDataService. Entity
-
-> > /Interface
+> /Interface
    * Utour.DemoDataService.ServiceInterface
    * Utour.DemoDataService.CAInterface
    * Utour.DemoDataService.DAInterface
