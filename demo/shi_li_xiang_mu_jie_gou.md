@@ -49,3 +49,6 @@
 * /demodataservice.utour.com/Utour.DemoDataService.ServiceHost/MonitorFiles/SqlMap: 
   >SqlMap文件存放目录
 
+###解决方案目录结构
+
+
