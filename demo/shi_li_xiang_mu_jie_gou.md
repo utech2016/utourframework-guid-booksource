@@ -83,12 +83,15 @@
 
 /Application: 服务解决方案文件夹, 存放服务宿主项目
 
-  >/Application/Utour.DemoDataService.ConsoleHost: 服务控制台宿主项目
+  >/Application/Utour.DemoDataService.ConsoleHost: 
+  >服务控制台宿主项目
 
-  >/Application/Utour.DemoDataService.ServiceHost: 服务iis宿主项目, 仅包含web.config, 此项目的存在是提供一个服务调试入口, 发布时可忽略.
+  >/Application/Utour.DemoDataService.ServiceHost: 
+  >服务iis宿主项目, 仅包含web.config, 此项目的存在是提供一个服务调试入口, 发布时可忽略.
 
 
-/BL: 解决方案文件夹, 存放业务逻辑和业务层的实体和接口	
+/BL: 解决方案文件夹, 存放业务逻辑和业务层的实体和接口
+
 /BL/Utour.DemoDataService.Bussiness: 业务逻辑项目, 包含服务契约接口的实现和其它内部业务逻辑
 /BL/Utour.DemoDataService.CAInterface: 缓存数据存取接口
 /BL/Utour.DemoDataService.DAInterface: 数据库数据存取接口
