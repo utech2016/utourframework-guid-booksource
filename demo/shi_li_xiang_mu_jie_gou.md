@@ -108,6 +108,7 @@
 ###发布目录结构
 
 以数据服务层项目为例，展开目录结构如下：
+
 ![发布目录结构](../images/img7.png)
 
 /deploysite/demodataservice.utour.com
