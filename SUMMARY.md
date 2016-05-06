@@ -25,7 +25,7 @@
    * [AOP模块使用方式](yingyong/aopmo_kuai_shi_yong_fang_shi.md)
    * [日志模块使用方式](yingyong/ri_zhi_mo_kuai_shi_yong_fang_shi.md)
    * [WebAPI调用集成](yingyong/webapidiao_yong_ji_cheng.md)
-   * 配置的监控及读取
+   * [配置的监控及读取](yingyong/pei_zhi_de_jian_kong_ji_du_qu.md)
 * [框架配置说明](configintro/kuang_jia_pei_zhi_yang_li.md)
    * [数据库提供者配置(DBProviderConfig)](configintro/dbproviderconfigpei_zhi.md)
    * [数据适配器配置(DBCategoryConfig)](configintro/dbcategoryconfigpei_zhi.md)
