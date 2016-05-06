@@ -1,4 +1,4 @@
-# 2.3 服务实现类约定
+# 服务实现类约定
 服务实现类定义在```Utour.DemoDataService.Bussiness```工程内; 服务实现类是对服务接口约定的方法的具体实现, 业务逻辑代码书写在服务实现类内.
 >1. 服务实现类，需要从```Utour.Framework.Service.IService```接口和对应的服务接口继承;服务实现类与服务接口一一对应
 >2. 服务实现类名称格式为: ```业务单元名称 + Service```，例如: ```UserService```
