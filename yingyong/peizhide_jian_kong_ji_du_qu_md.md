@@ -15,9 +15,13 @@
 
 ####配置如何读取
 1. 首先配置文件需要有对应的配置类映射，且配置类必须继承自```Utour.Framework.Config.ConfigUnit```
-![](../images/img8.png)![](../images/img8.png)
+![](../images/img9.png)![](../images/img8.png)
+2. 使用```ConfigFactory.GetConfig<T>()```工厂读取
+![](../images/img10.png)
 
-####安全事项
+
+   
+###安全事项
 
  MonitorFiles监控目录下配置涉及数据库缓存连接串等重要信息，为了保障监控目录文件安全，在部署服务或网站项目时，对于外网必须**禁用IIS目录浏览**，并在Web.config中针对**监控目录设置访问权限**，禁止浏览器直接访问，有以下两种方式进行权限设置
  
