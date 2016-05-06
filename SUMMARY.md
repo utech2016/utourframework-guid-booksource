@@ -17,7 +17,7 @@
    * [Web开发约定](devrule/webkai_fa_yue_ding.md)
 * [框架应用](yingyong/ying_yong_fang_shi.md)
    * [DLL引用方式](yingyong/dllyin_yong_fang_shi.md)
-   * [配置的监控及读取](yingyong/peizhide_jian_kong_ji_du_qu_md.md)
+   * [配置的监控及读取方式](yingyong/peizhide_jian_kong_ji_du_qu_md.md)
    * [WCF服务创建发布](yingyong/wcffu_wu_chuang_jian_fa_bu.md)
    * [WCF服务引用方式](yingyong/wcffu_wu_yin_yong_fang_shi.md)
    * [数据访问层调用方式](yingyong/shu_ju_fang_wen_ceng_diao_yong_fang_shi.md)
