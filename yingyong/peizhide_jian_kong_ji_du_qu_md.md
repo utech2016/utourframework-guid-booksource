@@ -15,7 +15,7 @@
 
 ####配置如何读取
 1. 首先配置文件需要有对应的配置类映射，且配置类必须继承自```Utour.Framework.Config.ConfigUnit```
-2. 
+![](../images/img8.png)![](../images/img8.png)
 
 ####安全事项
 
