@@ -8,7 +8,7 @@
       "duoshuo": {
            "short_name": "utech",
             "theme": "default"
-        }
+       },
       "search-pro": {
         "cutWordLib": "nodejieba",
         "defineWord" : ["Gitbook Use"]
