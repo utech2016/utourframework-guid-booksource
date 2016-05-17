@@ -3,7 +3,7 @@
   "plugins": ["prism", "-highlight","disqus","search-pro"],
   "pluginsConfig":{
        "disqus": {
-            "shortName": "utechbook"
+            "shortName": "gitbookuse"
       },
       "search-pro": {
         "cutWordLib": "nodejieba",
