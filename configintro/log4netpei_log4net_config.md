@@ -1,4 +1,4 @@
-# Log4net配置(log4net.config)
+## Log4net配置(log4net.config)
 
 框架内置log4net的配置文件，并对log4net进行扩展，目前架构中集成了通用日志记录方法, 监控日志记录方法以及网站和服务的日志记录方法(注：log4net.config只会被log4net组件监控但不会被框架配置监控，只是统一放到监控目录下而已)
 
