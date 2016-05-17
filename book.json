@@ -1,8 +1,12 @@
 {
-  "plugins": ["prism", "-highlight","disqus"],
+  "plugins": ["prism", "-highlight","disqus","search-pro"],
   "pluginsConfig":{
        "disqus": {
             "shortName": "utech.com"
+      },
+      "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["Gitbook Use"]
       }
   }
 }
