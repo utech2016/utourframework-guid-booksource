@@ -32,7 +32,7 @@
 </VersionConfig>
 ```
 
-## 如何应用
+### 如何应用
    只需要在引用css和js视图页面的位置使用如下两行代码即可.
    
       @VersionHelper.StylesRender(virtualpath)
