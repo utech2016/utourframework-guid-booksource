@@ -3,7 +3,7 @@
   "plugins": ["prism", "-highlight","-disqus","search-pro","duoshuo"],
   "pluginsConfig":{
       "disqus": {
-            "shortName": "utech"
+            "shortName": "utechbook"
       },
       "duoshuo": {
            "short_name": "utech",
