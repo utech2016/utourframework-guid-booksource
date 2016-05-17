@@ -1,3 +1,8 @@
 {
-  "plugins": ["prism", "-highlight"]
+  "plugins": ["prism", "-highlight","disqus"],
+  "pluginsConfig":{
+       "disqus": {
+            "shortName": "utech.com"
+      }
+  }
 }
