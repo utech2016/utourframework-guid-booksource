@@ -13,7 +13,7 @@
   ```
 * 必须把配置文件要统一放到 “[监控目录]/Config”下，sqlmap配置放到“[监控目录]/SqlMap”下
 
-####配置如何读取
+###配置如何读取
 
 1. 首先配置文件需要有对应的配置类映射，且配置类必须继承自```Utour.Framework.Config.ConfigUnit```
 ![](../images/img9.png)![](../images/img8.png)
