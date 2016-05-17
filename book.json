@@ -2,7 +2,7 @@
   "plugins": ["prism", "-highlight","disqus","search-pro"],
   "pluginsConfig":{
        "disqus": {
-            "shortName": "utech.com"
+            "shortName": "utechbook"
       },
       "search-pro": {
         "cutWordLib": "nodejieba",
