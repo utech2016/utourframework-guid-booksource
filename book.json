@@ -2,8 +2,8 @@
   "language" : "zh-hans",
   "plugins": ["prism", "-highlight","-disqus","search-pro","duoshuo"],
   "pluginsConfig":{
-       "disqus": {
-            "shortName": "utechbook"
+      "disqus": {
+            "shortName": "utech"
       },
       "duoshuo": {
            "short_name": "utechcom",
