@@ -1,4 +1,5 @@
 {
+  "language" : "zh-hans",
   "plugins": ["prism", "-highlight","disqus","search-pro"],
   "pluginsConfig":{
        "disqus": {
