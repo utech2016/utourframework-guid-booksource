@@ -1,10 +1,14 @@
 {
   "language" : "zh-hans",
-  "plugins": ["prism", "-highlight","duoshuo"],
+  "plugins": ["prism","-search","search-pro","-highlight","duoshuo"],
   "pluginsConfig":{
       "duoshuo": {
            "short_name": "utech",
             "theme": "default"
-       }
+      },
+      "search-pro": {
+          "cutWordLib": "nodejieba",
+          "defineWord" : ["键入关键词..."]
+      }
   }
 }
