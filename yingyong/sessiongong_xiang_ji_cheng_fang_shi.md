@@ -1,4 +1,4 @@
-# Session共享集成方式
+## Session共享集成方式
 架构中为了使Session可以跨域使用, 使用Redis作为Session的存储介质.
 1. 引用程序集
   * Utour.Framework.Web.dll
