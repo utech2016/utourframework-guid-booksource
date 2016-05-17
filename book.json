@@ -1,17 +1,10 @@
 {
   "language" : "zh-hans",
-  "plugins": ["prism", "-highlight","-disqus","search-pro","duoshuo"],
+  "plugins": ["prism", "-highlight","duoshuo"],
   "pluginsConfig":{
-      "disqus": {
-            "shortName": "utechbook"
-      },
       "duoshuo": {
            "short_name": "utech",
             "theme": "default"
-       },
-      "search-pro": {
-        "cutWordLib": "nodejieba",
-        "defineWord" : ["Gitbook Use"]
-      }
+       }
   }
 }
