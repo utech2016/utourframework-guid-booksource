@@ -1,3 +1,4 @@
 # 示例
 
-基于框架搭建的示例项目（[Demo下载](http://pan.baidu.com/s/1cFlURs)）
+基于框架搭建的示例项目,示例项目已私密共享到百度云盘（[前往云盘下载](http://pan.baidu.com/s/1cFlURs)）
+注：云盘提取密码，请内部索要
