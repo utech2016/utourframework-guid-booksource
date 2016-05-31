@@ -1,6 +1,6 @@
 {
   "language" : "zh-hans",
-  "plugins": ["prism","-search","search-pro","-highlight","duoshuo","maxiang"],
+  "plugins": ["prism","search","-search-pro","-highlight","duoshuo","maxiang"],
   "pluginsConfig":{
       "duoshuo": {
            "short_name": "utech",
