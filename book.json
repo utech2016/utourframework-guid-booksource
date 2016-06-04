@@ -11,7 +11,7 @@
           "defineWord" : ["键入关键词..."]
       }
     },
-   "styles": {
+   "styles":{
      "website":"./styles/website.css"
     }
 }
