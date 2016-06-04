@@ -10,7 +10,7 @@
           "cutWordLib": "nodejieba",
           "defineWord" : ["键入关键词..."]
       }
-  }
+  },
   "styles":{
      "website": "styles/website.css",
   }
