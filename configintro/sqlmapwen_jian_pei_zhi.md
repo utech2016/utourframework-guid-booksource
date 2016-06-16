@@ -24,5 +24,4 @@
   <!--SqlMap名称，建议按照数据适配器类对应配置，如UserDataAdapterForSqlServer,则对应SqlMapName配置为User-->
   <SqlMapName>User</SqlMapName>
 </SqlMap>
-
 ```
