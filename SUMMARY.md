@@ -30,6 +30,7 @@
    * [数据库提供者配置(DBProviderConfig)](configintro/dbproviderconfigpei_zhi.md)
    * [数据适配器配置(DBCategoryConfig)](configintro/dbcategoryconfigpei_zhi.md)
    * [缓存提供者配置(CacheProviderConfig)](configintro/cacheproviderconfigpei_zhi.md)
+   * SqlMap文件配置
    * [缓存适配器配置(CacheCategoryConfig)](configintro/dbcategoryconfig.md)
    * [服务宿主配置(ServiceHostConfig)](configintro/fu_wu_su_zhu_pei_7f6e28_servicehostconfig.md)
    * [服务客户端配置(ServiceClientConfig)](configintro/fu_wu_ke_hu_duan_pei_7f6e28_serviceclientconfig.md)
@@ -39,7 +40,6 @@
    * [WebApi接口缓存配置(WebApiCacheConfig)](configintro/webapijie_kou_huan_cun_pei_7f6e28_webapicacheconfi.md)
    * [WebApi调用密钥配置(WebApiAuthConfig)](configintro/webapidiao_yong_mi_yao_pei_7f6e28_webapiauthconfig.md)
    * [Log4net配置(log4net.config)](configintro/log4netpei_log4net_config.md)
-   * SqlMap文件配置
 * [示例](demo/shi_li.md)
    * [示例项目结构](demo/shi_li_xiang_mu_jie_gou.md)
 
