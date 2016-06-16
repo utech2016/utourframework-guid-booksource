@@ -11,7 +11,7 @@
     <SqlMapDetail>
       <!--sql名称，建议按照某一个数据库操作方法的命名，如AddUser,AddOrder-->
       <SqlName>Add</SqlName>
-      <!--Sql语句或存储过程名称-->
+      <!--Sql语句或存储过程名称(<font clor='red'>注意</font>)-->
       <OriginalSqlString>
         INSERT INTO [UtourDemoDB].[dbo].[User] ([Name] ,[Sex] ,[Birth] ,[Department]) VALUES(@Name,@Sex,@Birth,@Department) 
         </OriginalSqlString>
