@@ -29,7 +29,7 @@
 * [框架配置说明](configintro/kuang_jia_pei_zhi_yang_li.md)
    * [数据库提供者配置(DBProviderConfig)](configintro/dbproviderconfigpei_zhi.md)
    * [数据适配器配置(DBCategoryConfig)](configintro/dbcategoryconfigpei_zhi.md)
-   * SqlMap文件配置
+   * [SqlMap文件配置](configintro/sqlmapwen_jian_pei_zhi.md)
    * [缓存提供者配置(CacheProviderConfig)](configintro/cacheproviderconfigpei_zhi.md)
    * [缓存适配器配置(CacheCategoryConfig)](configintro/dbcategoryconfig.md)
    * [服务宿主配置(ServiceHostConfig)](configintro/fu_wu_su_zhu_pei_7f6e28_servicehostconfig.md)
