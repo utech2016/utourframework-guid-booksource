@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema  xmlns="http://www.utour.framework.net/dbprovider" 
+            xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+            targetNamespace="http://www.utour.framework.net/dbprovider">
+  <xs:annotation>
+    <xs:documentation>
+      <![CDATA[数据库提供者配置文件]]>
+    </xs:documentation>
+  </xs:annotation>
+  <!--定义数据类别枚举值-->
+  <xs:simpleType name="enumDBType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SqlServer"/>
+      <xs:enumeration value="MySql"/>
+      <xs:enumeration value="Oracle"/>
+      <xs:enumeration value="Access"/>
+      <xs:enumeration value="MongoDB"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Defines a base type for any required string.  Defines a string with a minimum length of 1-->
+  <xs:simpleType name="nonNullString">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="DBProviderConfig">
+    <xs:annotation>
+      <xs:documentation>
+        <![CDATA[
+        数据库提供者配置根节点
+        ]]>
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice>
+        <xs:element name="DBProviders" minOccurs="1" maxOccurs="1" >
+          <xs:annotation>
+            <xs:documentation>
+              <![CDATA[
+               在此节点下添加数据库提供者，每一种数据库类别有且只有一个DBProvider节点，
+               即要保证每个DBProvider节点属性category的值不能重复
+               ]]>
+            </xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DBProvider" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation>
+                    <![CDATA[
+                     数据库提供者配置
+                    ]]>
+                  </xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="DBConnections" minOccurs="0" maxOccurs="1">
+                      <xs:annotation>
+                        <xs:documentation>
+                          <![CDATA[
+                           数据库连接集合节点，在此节点下添加对应数据库连接
+                         ]]>
+                        </xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="DBConnection"  minOccurs="0" maxOccurs="unbounded">
+                            <xs:annotation>
+                              <xs:documentation>
+                                <![CDATA[数据库连接节点元素]]>
+                              </xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:attribute name="name" type="nonNullString"  use="required"  >
+                                <xs:annotation>
+                                  <xs:documentation>
+                                    <![CDATA[数据库连接名称]]>
+                                  </xs:documentation>
+                                </xs:annotation>
+                              </xs:attribute>
+                              <xs:attribute name="connection"  type="nonNullString"  use="required">
+                                <xs:annotation>
+                                  <xs:documentation>
+                                    <![CDATA[数据库连接串]]>
+                                  </xs:documentation>
+                                </xs:annotation>
+                              </xs:attribute>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="category"  type="enumDBType" use="required">
+                    <xs:annotation>
+                      <xs:documentation>
+                        <![CDATA[数据库类别，支持数据类别列表有：SqlServer,MySql,Oracle,Access,MongoDB]]>
+                      </xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
